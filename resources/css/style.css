@@ -1,0 +1,138 @@
+.top, footer {
+  height: 64px;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+.top, .title, nav, .banner, .caption, .info, .info-links, .main, .links, .learning, .courses, .row, .course, .thesis, .exhibit, .video, .images, footer {
+  display: flex;
+}
+
+.caption, .info-links, .main, .learning, .courses, .course, .thesis, .video, .images {
+  flex-direction: column;
+
+}
+
+.title h2 {
+  height: 32px;
+  margin: auto;
+}
+
+.top span, footer span {
+  margin: auto 0 auto 16px;
+
+}
+
+.banner, .info-links .links:last-child, .learning, .images .links:first-child {
+  background-color: lightgrey;
+}
+.banner img {
+  width: 60%;
+  height: 100%;
+
+  margin: 32px 24px;
+}
+.banner .caption h3 {
+  background-color: grey;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.banner .caption {
+  margin-right: 72px;
+  justify-content: center;
+}
+.info .main {
+  margin: 32px 24px;
+  width: 60%;
+}
+.main img, .course img {
+  width: 100%;
+  height: auto;
+}
+.main h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+.info .info-links {
+  border-left: 1px solid lightgrey;
+  width: 40%;
+}
+
+.links .caption {
+  margin: auto;
+  width: 65%;
+
+}
+.info-links .links:first-child {
+  border-bottom: 1px solid lightgrey;
+
+}
+
+
+.links h3 {
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+.links img {
+  width: 35%;
+  height: 100%;
+  padding: 16px;
+}
+.learning h1, .thesis h1 {
+  margin: 32px auto 0 auto;
+}
+.courses {
+  margin: 16px 40px;
+
+
+}
+.courses .row {
+  margin: 0 16px;
+}
+.course {
+  margin: 16px;
+  padding-bottom: 16px;
+  background-color: white;
+  width: 33%
+}
+.course img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.course h2, .course h3 {
+  margin: 8px 16px;
+}
+
+.exhibit {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.video {
+  width: 60%;
+  justify-content: flex-start;
+  margin-left: 24px;
+  margin-right: 24px;
+  }
+.video h3 {
+  margin: 0;
+}
+.video h2{
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.images {
+  width: 40%;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  border-top: 1px solid lightgrey;
+}
